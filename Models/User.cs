@@ -1,12 +1,3 @@
-public enum Role
-{
-    Student,
-    Faculty,
-    Guest,
-    Librarian,
-    Admin
-}
-
 public class User
 {
     public string UserID { get; }
