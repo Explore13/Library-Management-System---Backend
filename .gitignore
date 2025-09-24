@@ -1,2 +1,55 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userprefs
+*.tmp
+*.bak
+*.obj
+*.pdb
+*.log
+*.resharper
+*.dotSettings
+*.pidb
+*.vshost.*
+*.csproj.user
+*.vcxproj.user
+*.sln.docstates
 
-.fake
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+artifacts/
+publish/
+*.kproj
+*.lock.json
+project.json.lock
+
+# Packages
+packages/
+node_modules/
+bower_components/
+npm-debug.log*
+
+# Test Results
+TestResults/
+*.trx
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Others
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.json.backup
+*.env
+.env
